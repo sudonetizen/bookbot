@@ -18,7 +18,7 @@ except:
     sys.exit(1)
 
 print("============ BOOKBOT ============")
-print(f"Analyzing book found at {sys.argv[1][1:]}...")
+print(f"Analyzing book found at {sys.argv[1][0:]}...")
 print("----------- Word Count -----------")
 print(f"Found {words} total words")
 print("--------- Character Count ---------")
